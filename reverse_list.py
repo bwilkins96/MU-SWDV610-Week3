@@ -12,7 +12,7 @@ def reverse_list(lst, start=0, stop=None):
     return lst
 
 if __name__ == '__main__':
-    test_1 = reverse_list([1,2,3,4,5])   
+    test_1 = reverse_list([1, 2, 3, 4, 5])   
     test_2 = reverse_list([14, 17, 21, 257, 4])
     test_3 = reverse_list([]) 
     

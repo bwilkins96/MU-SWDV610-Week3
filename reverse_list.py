@@ -2,7 +2,7 @@
 # Recursive function that reverses a list
 
 def reverse_list(lst, start=0, stop=None):
-    '''Reverses the order of a list from start to stop indexes'''
+    """Reverses the order of a list from start to stop indexes"""
     if not stop: stop = len(lst) - 1
 
     if stop - start > 1:

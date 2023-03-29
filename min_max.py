@@ -2,7 +2,7 @@
 # Recursive function that finds the minimum and maximum values in a sequence
 
 def min_max(seq, idx=0, min=float('inf'), max=float('-inf')):
-    '''Returns the min and max values of a sequence'''
+    """Returns the min and max values of a sequence"""
     if len(seq) == 0: 
         min, max = None, None    
     
